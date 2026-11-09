@@ -1,6 +1,7 @@
 name: CapyMOA Test and Package
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master, capymoa, main ]
   pull_request:
